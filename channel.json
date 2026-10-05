@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "version": "0.1.0-pilot.31",
+  "version": "0.1.0-pilot.48",
   "project": "x1pro_firmware",
   "chip": "esp32s3",
   "hardware": "board_v4",
   "profile": "ota-ble-control",
   "size_bytes": 1380352,
-  "sha256": "6902f3614c8087ee6618da934ad3211c04cdbfc71e213872f8e79cf2f930ea8f",
-  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.1.0-pilot.31/x1pro_firmware.bin",
-  "notes": "Signed pilot release for validating the browser-assisted upgrade workflow. Device behavior matches pilot.30."
+  "sha256": "4000684895969fc6d48c4e35a9e3319d443e750e0eb4b930ff028b4868cb9daa",
+  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.1.0-pilot.48/x1pro_firmware.bin",
+  "notes": "pilot.48 验证候选：修复停止后的旧指令、送料超时、回中交接和产测判据；支持末张禁用预送料及定时机械模式。已通过本地回归和两台串口升级核验，实机运行与 OTA 异常验收待完成。升级前请结束任务并停机。"
 }
