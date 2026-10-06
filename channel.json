@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "version": "0.2.0-pilot.53",
+  "version": "0.3.0-pilot.55",
   "project": "x1pro_firmware",
   "chip": "esp32s3",
   "hardware": "board_v4",
   "profile": "ota-ble-control",
   "size_bytes": 1380352,
-  "sha256": "4aa0911ee6c410c0570761aedafbabb613b2ba0d3f4a7d2e63144df1985a2ea9",
-  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.2.0-pilot.53/x1pro_firmware.bin",
-  "notes": "pilot.53 配对提示音：进入配对模式单声，新电脑加密验证及授权保存读回成功后双声；日常重连安静，遵循静音设置。包含此前 OTA 重启交接和 pilot.52 应用侧舵机保护。升级前结束任务并停机，保持供电。本包只更新应用，不更新启动程序。Windows OTA 和实际听感待测试；已写入 v2 授权表的设备不可直接降至 pilot.50 或更早版本。"
+  "sha256": "8ad27c85994c2ce9a4a7bce48308fc644c1b43ec554c9796bdd0833c79fd4281",
+  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.3.0-pilot.55/x1pro_firmware.bin",
+  "notes": "pilot.55：认证配对蓝牙可为一次准确的 OTA 授权，绑定会话、操作、版本、大小及摘要，后续正常升级无需长按 BOOT。普通维护热点关闭强制登录门户。配合插件1.8.0。旧固件首次安装仍受旧维护授权规则约束。保持停机与供电。签名和完整软件回归通过，Windows实机OTA待复测。"
 }
