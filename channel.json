@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "version": "0.1.3-pilot.51",
+  "version": "0.2.0-pilot.53",
   "project": "x1pro_firmware",
   "chip": "esp32s3",
   "hardware": "board_v4",
   "profile": "ota-ble-control",
   "size_bytes": 1380352,
-  "sha256": "1d16bb235de1326463e7c0e48d9a05eed86ab97474887e6b0bb4ff3b484dd925",
-  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.1.3-pilot.51/x1pro_firmware.bin",
-  "notes": "pilot.51 验证候选：保留日常重连授权，支持最多16台电脑的添加、替换与指定撤销，并修复OTA重启交接。仅允许1台电脑同时连接。升级前请结束任务并停机；首次修改授权表后，不能直接降回pilot.50或更早版本，需兼容恢复固件或实际升级前备份。本地软件回归与签名已通过，本版真机升级及切换验收待完成。"
+  "sha256": "4aa0911ee6c410c0570761aedafbabb613b2ba0d3f4a7d2e63144df1985a2ea9",
+  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.2.0-pilot.53/x1pro_firmware.bin",
+  "notes": "pilot.53 配对提示音：进入配对模式单声，新电脑加密验证及授权保存读回成功后双声；日常重连安静，遵循静音设置。包含此前 OTA 重启交接和 pilot.52 应用侧舵机保护。升级前结束任务并停机，保持供电。本包只更新应用，不更新启动程序。Windows OTA 和实际听感待测试；已写入 v2 授权表的设备不可直接降至 pilot.50 或更早版本。"
 }
