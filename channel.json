@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "version": "0.3.1-pilot.56",
+  "version": "0.3.3-pilot.58",
   "project": "x1pro_firmware",
   "chip": "esp32s3",
   "hardware": "board_v4",
   "profile": "ota-ble-control",
   "size_bytes": 1380352,
-  "sha256": "7c7b93e488cf50e375ef9591f7d6aecc8fae2352ef2bc7bf910b42abe85c9473",
-  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.3.1-pilot.56/x1pro_firmware.bin",
-  "notes": "pilot.56：用于从 pilot.55 测试真正的 OTA 版本升级，设备功能与 pilot.55 一致。保留配对蓝牙单次升级授权、签名校验和健康确认。请使用插件 1.8.2，先联网下载，再连接机器热点升级。只更新应用固件；Windows 真机 OTA 仍待测试。"
+  "sha256": "d9aa16a4b5cb75471d7b09b71adcd9890dd088fcdf794d03412b164f86386602",
+  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.3.3-pilot.58/x1pro_firmware.bin",
+  "notes": "pilot.58：用于从已烧入的修复版 pilot.57 验证真正的 OTA 升级。包含停机授权误判修复：正常开机待机和结束扫描后均按实际停机状态授权，不要求网络正在切换。使用插件 1.8.3，先联网下载，再连接所选机器热点升级。Windows 真机 OTA 待测试。"
 }
