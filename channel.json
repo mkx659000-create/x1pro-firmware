@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "version": "0.3.4-pilot.59",
+  "version": "0.3.7-pilot.62",
   "project": "x1pro_firmware",
   "chip": "esp32s3",
   "hardware": "board_v4",
   "profile": "ota-ble-control",
   "size_bytes": 1380352,
-  "sha256": "583fb830fa10fe988a047abc2249fcb4116c39f341172db5a36782d2e57a1e4f",
-  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.3.4-pilot.59/x1pro_firmware.bin",
-  "notes": "pilot.59：用于配合插件 1.9.0 验证 Windows OTA 全流程。从 pilot.58 检测并升级到此版本，验证升级结果确认及开始、重置按钮恢复。保留停机授权修复和签名升级保护；正常配对升级无需长按 BOOT。"
+  "sha256": "70580b067848a13ffb3964ed92ec8e726d69d7357e134e5958ebdb3ccd239c1d",
+  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.3.7-pilot.62/x1pro_firmware.bin",
+  "notes": "pilot.62：用于已配网设备从 pilot.61 进行 Wi-Fi OTA 升级测试。沿用已验证的蓝牙配网、真实网络扫描、Wi-Fi 按需开启和 10 分钟空闲关闭逻辑，本轮只递增版本并重新签名。请使用插件 1.9.11，保持蓝牙连接、设备停止任务，电脑和机器连接同一路由器后升级。"
 }
