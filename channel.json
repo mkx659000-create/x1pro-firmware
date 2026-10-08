@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "version": "0.3.11-pilot.66",
+  "version": "0.3.12-pilot.68",
   "project": "x1pro_firmware",
   "chip": "esp32s3",
   "hardware": "board_v4",
   "profile": "ota-ble-control",
   "size_bytes": 1380352,
-  "sha256": "4e5a22001c12337a309db4e6e4fe6cb237a00035d2ce456962d0a7c1e15b6c38",
-  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.3.11-pilot.66/x1pro_firmware.bin",
-  "notes": "pilot.66：用于从 pilot.65 验证局域网 OTA。与 pilot.65 相比仅递增版本并重新签名，保留配对、Wi-Fi 和设置。请使用插件 1.9.18。pilot.61–64 需先经 USB 或设备热点升级；此包是验收候选版，尚未作为稳定版放行。"
+  "sha256": "6863c71f041891ff3ce8c03088ffe328a07e7ca1474a2893b569f3d84ba27765",
+  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.3.12-pilot.68/x1pro_firmware.bin",
+  "notes": "pilot.68 候选验证版：识别期间预先准备舵机中位，已准备的分路直接开始摆舵；请求15–30 ms蓝牙连接间隔，实际由主机协商。配合插件1.9.23。签名、构建及模拟检查通过；真实扫描和机械体验尚待验收。"
 }
