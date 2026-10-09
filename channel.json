@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "version": "0.3.22-pilot.78",
+  "version": "0.3.25-pilot.81",
   "project": "x1pro_firmware",
   "chip": "esp32s3",
   "hardware": "board_v4",
   "profile": "ota-ble-control",
   "size_bytes": 1380352,
-  "sha256": "97232385788ddf94d1a8369e98f40b484938fcdd0fb21f63a8176ebaae262f64",
-  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.3.22-pilot.78/x1pro_firmware.bin",
-  "notes": "pilot.78: 1 ms optical confirmation and sampling; 100 ms default outfeed; legacy saved settings retained; physically authorized factory retest and final ownership cleanup. Companion extension 1.9.30 / SDK 0.5.4. Signed pilot candidate; existing stored delays are not overwritten. Latest-image mechanical and stop-latency qualification remains pending."
+  "sha256": "d2c291d5af56418930bb71c5cd1125ce83daabe098b1fc28dc4c5572b73e05ba",
+  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.3.25-pilot.81/x1pro_firmware.bin",
+  "notes": "pilot.81: version-only rebuild of pilot.80 for 80-to-81 OTA testing. Same pairing-recovery and reset-scoped Bluetooth identity logic. Ordinary OTA preserves existing identity, pairing, calibration and settings. Recommended extension 1.9.31 / SDK 0.5.4. Signed pilot candidate; exact-image device OTA and rollback acceptance are pending."
 }
