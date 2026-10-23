@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "version": "0.3.25-pilot.81",
+  "version": "0.3.26-pilot.82",
   "project": "x1pro_firmware",
   "chip": "esp32s3",
   "hardware": "board_v4",
   "profile": "ota-ble-control",
   "size_bytes": 1380352,
-  "sha256": "d2c291d5af56418930bb71c5cd1125ce83daabe098b1fc28dc4c5572b73e05ba",
-  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.3.25-pilot.81/x1pro_firmware.bin",
-  "notes": "pilot.81: version-only rebuild of pilot.80 for 80-to-81 OTA testing. Same pairing-recovery and reset-scoped Bluetooth identity logic. Ordinary OTA preserves existing identity, pairing, calibration and settings. Recommended extension 1.9.31 / SDK 0.5.4. Signed pilot candidate; exact-image device OTA and rollback acceptance are pending."
+  "sha256": "d9075561e474e032a65545d13f6d42b92f106aabc04e2bbc9cce5fd3f4d640e9",
+  "url": "https://github.com/mkx659000-create/x1pro-firmware/releases/download/v0.3.26-pilot.82/x1pro_firmware.bin",
+  "notes": "pilot.82: disconnect the current phone or computer, then connect another without previous-device approval. One active Bluetooth control connection; pairing and settings are retained during ordinary OTA. Recommended extension 1.9.49. PC/iPhone switching and exact-image signed OTA passed on one board. Existing pilot.80/81 pairings work with the new extension. Pilot prerelease; new physical-phone first pairing and full endurance acceptance remain pending."
 }
